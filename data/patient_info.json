@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Drug Mechanism & Pharmacology — Patient & HCP Reference",
+    "description": "100-word mechanism-of-action summaries for all 31 drugs, usable by both doctor mode (technical) and patient mode (LLM simplifies language).",
+    "drug_count": 31,
+    "version": "1.0"
+  },
+  "drugs": [
+    {
+      "id": "paracetamol",
+      "generic_name": "Paracetamol",
+      "category": "Pain Management",
+      "mechanism": "Paracetamol primarily inhibits COX-3, a central nervous system variant of cyclooxygenase enzymes, and weakly inhibits COX-2. This selective central action reduces prostaglandin synthesis in the brain, providing effective analgesia and antipyresis. Unlike NSAIDs, it exhibits minimal peripheral anti-inflammatory effects due to limited COX inhibition at inflammation sites. Its safety profile allows use across all age groups, including pregnancy, with primary metabolism via glucuronidation and sulfation. Therapeutic effects peak at 30–60 minutes, lasting 4–6 hours, making it ideal for fever control and mild–moderate pain management in outpatient settings.",
+      "patient_summary": "Paracetamol works in the brain to reduce pain signals and bring down fever. It is not a strong anti-inflammatory like ibuprofen. It is safe for most people including pregnant women and children. Effects start within 30–60 minutes and last 4–6 hours. Commonly used for headaches, body aches, and fever."
+    },
+    {
+      "id": "ibuprofen",
+      "generic_name": "Ibuprofen",
+      "category": "Pain Management",
+      "mechanism": "Ibuprofen is a non-selective COX-1/COX-2 inhibitor that blocks arachidonic acid conversion to prostaglandins at peripheral injury sites. This produces robust anti-inflammatory, analgesic, and antipyretic effects through multiple mechanisms: direct COX inhibition, reduced leukotriene production via LOX pathway shunting prevention, and platelet aggregation inhibition. Its peripheral predominance distinguishes it from paracetamol's central action. Peak effects occur within 1–2 hours with 6–8 hour duration. GI mucosal protection is better than aspirin but requires food co-administration to minimize ulceration risk. The R-enantiomer converts to the active S-form in vivo.",
+      "patient_summary": "Ibuprofen reduces pain, inflammation, and fever by blocking chemicals called prostaglandins at the site of injury. It works within 1–2 hours and lasts 6–8 hours. Take it with food to protect your stomach. It is stronger than paracetamol for swelling and joint pain but carries more stomach-related risks."
+    },
+    {
+      "id": "diclofenac",
+      "generic_name": "Diclofenac",
+      "category": "Pain Management",
+      "mechanism": "Diclofenac demonstrates preferential COX-2 inhibition alongside moderate COX-1 blockade, delivering superior peripheral anti-inflammatory potency compared to ibuprofen. Additional mechanisms include voltage-gated sodium channel inhibition and peroxisome proliferator-activated receptor gamma (PPAR-γ) modulation. It exhibits high potency among arylacetic acid NSAIDs for prostaglandin suppression at inflammation sites. Topical formulations achieve high local concentrations with minimal systemic exposure. Hepatic metabolism produces active metabolites with 1.2–2 hour half-life. The dual inhibition profile explains superior efficacy in acute musculoskeletal injuries and post-surgical inflammation despite an increased cardiovascular thrombotic risk profile.",
+      "patient_summary": "Diclofenac is a strong painkiller and anti-inflammatory medicine. It is more potent than ibuprofen for joint and muscle pain. Available as tablets, injections, and gels — the gel form works locally with fewer side effects. Take with food to protect the stomach. Not recommended for long-term use in patients with heart disease risk."
+    },
+    {
+      "id": "aceclofenac",
+      "generic_name": "Aceclofenac + Paracetamol",
+      "category": "Pain Management",
+      "mechanism": "Aceclofenac, a phenylacetic acid derivative, preferentially inhibits COX-2 (IC50 ratio COX-1:COX-2 = 30:1) while stimulating glycosaminoglycan synthesis in chondrocytes, providing cartilage protection. Paracetamol complements this with central COX-3 inhibition for analgesia without peripheral inflammation. This fixed-dose combination leverages complementary mechanisms: aceclofenac's potent anti-inflammatory action addresses tissue damage while paracetamol provides rapid brain-mediated pain relief. Synergistic effects exceed individual components in acute pain models. Aceclofenac's active metabolites prolong duration while paracetamol's rapid onset ensures immediate relief, ideal for moderate–severe acute pain requiring both inflammatory control and analgesia.",
+      "patient_summary": "This combination tablet has two painkillers that work differently. Aceclofenac reduces swelling and inflammation at the pain site, while paracetamol works in the brain for quick pain relief. Together, they give faster and longer-lasting relief than either alone. Best for moderate to severe pain like dental pain, joint pain, or post-surgery recovery. Take with food."
+    },
+    {
+      "id": "aspirin",
+      "generic_name": "Aspirin",
+      "category": "Pain Management",
+      "mechanism": "Low-dose aspirin (75–150 mg) irreversibly acetylates the COX-1 serine residue 529 in platelets, selectively inhibiting thromboxane A2 (TXA2) synthesis while sparing endothelial prostacyclin (PGI2) production due to differential enzyme recovery rates. Platelets lack nuclei, preventing COX-1 resynthesis during their 7–10 day lifespan, ensuring sustained antiplatelet effect. Vascular endothelium regenerates COX-2 rapidly, maintaining PGI2-mediated vasodilation. This creates a favorable TXA2:PGI2 ratio shift, preventing platelet aggregation without vascular compromise. Enteric coating minimizes GI bleeding risk. Effect persists 7–10 days post-dose, enabling alternate-day dosing in some stable coronary disease regimens.",
+      "patient_summary": "Low-dose aspirin (75–150 mg) is mainly used as a blood thinner, not as a painkiller. It prevents blood clots by stopping platelets from sticking together. Commonly prescribed after heart attacks or for patients with heart disease. Enteric-coated tablets reduce stomach irritation. Its effect lasts many days, so inform your doctor/dentist before any surgery."
+    },
+    {
+      "id": "amoxicillin",
+      "generic_name": "Amoxicillin",
+      "category": "Antibiotics",
+      "mechanism": "Amoxicillin, an aminopenicillin, binds penicillin-binding proteins (PBPs 1A, 1B, 2, 3), inhibiting transpeptidation during bacterial peptidoglycan cross-linking essential for cell wall integrity. It is active against Gram-positive aerobes (Streptococcus, Enterococcus) and some Gram-negatives. Time-dependent killing requires T>MIC optimization. The β-lactam ring acylates active serine PBPs, preventing cell wall synthesis while activating autolysins causing lysis. Poor β-lactamase stability limits Gram-negative coverage. Rapid oral absorption (70–90%) achieves high serum levels. It is primarily renally excreted and remains usable in hepatic impairment. A 1–1.5 hour half-life necessitates TID/QID dosing for optimal efficacy.",
+      "patient_summary": "Amoxicillin is a common antibiotic that kills bacteria by breaking down their cell walls. It works for throat infections, ear infections, urinary infections, and dental infections. Taken 2–3 times daily, with or without food. Complete the full course even if you feel better — stopping early can cause resistance. Tell your doctor if you're allergic to penicillin."
+    },
+    {
+      "id": "amoxicillin_clavulanate",
+      "generic_name": "Amoxicillin + Clavulanic Acid",
+      "category": "Antibiotics",
+      "mechanism": "Amoxicillin inhibits cell wall synthesis via PBP binding while clavulanic acid, a β-lactamase suicide inhibitor, irreversibly acylates serine β-lactamase active sites, preserving amoxicillin activity against β-lactamase producers (S. aureus, H. influenzae, M. catarrhalis, some Enterobacteriaceae). A typical 4:1 ratio optimizes efficacy:safety. Clavulanate extends spectrum to β-lactamase–positive pathogens while maintaining time-dependent killing. Competitive antagonism overcomes some inducible β-lactamases. Diarrhea risk increases due to gut flora disruption. Twice-daily dosing improves adherence. Renal dose adjustment is required. It remains a common first-line choice for community respiratory and some GI infections despite resistance emergence.",
+      "patient_summary": "This is a stronger version of amoxicillin. Clavulanic acid protects the antibiotic from being destroyed by resistant bacteria. Effective for sinus infections, ear infections, pneumonia, and skin infections. Take with food to reduce stomach upset and diarrhea. Complete the full course as prescribed. Requires dose adjustment if you have kidney problems."
+    },
+    {
+      "id": "azithromycin",
+      "generic_name": "Azithromycin",
+      "category": "Antibiotics",
+      "mechanism": "Azithromycin, a 15-membered macrolide, reversibly binds the 50S ribosomal subunit 23S rRNA domain V, inhibiting translocation and early peptide chain elongation. It is bacteriostatic against most pathogens but bactericidal against select streptococci and H. influenzae. Exceptional tissue penetration (lung > plasma) and a long intracellular half-life (~68 hours) enable 3–5 day short courses. It is acid-stable with ~37% bioavailability. Accumulation in macrophages enhances activity against Legionella and Chlamydia. Minimal CYP450 interaction distinguishes it from older macrolides. It covers atypical pneumonia, chlamydia, and streptococcal pharyngitis. QT prolongation risk requires caution with other QT-prolonging drugs.",
+      "patient_summary": "Azithromycin is an antibiotic that stops bacteria from making proteins they need to grow. It stays active in your body for a long time, so you only take it for 3–5 days. Used for throat infections, pneumonia, and some sexually transmitted infections. Take on an empty stomach for best effect. Tell your doctor if you have heart rhythm problems."
+    },
+    {
+      "id": "cefixime",
+      "generic_name": "Cefixime",
+      "category": "Antibiotics",
+      "mechanism": "Cefixime is a third-generation cephalosporin with enhanced Gram-negative activity via PBP3 affinity, particularly Enterobacteriaceae. Poor PBP2 binding limits anti-pseudomonal activity. Its β-lactam ring inhibits transpeptidation during cell wall synthesis, producing time-dependent bactericidal effects; efficacy correlates with T>MIC >40–50%. The oral prodrug achieves 40–50% bioavailability. It penetrates respiratory and urinary tissues well and has some CSF activity. It is stable against TEM-1 β-lactamases but vulnerable to ESBLs. Twice-daily dosing is convenient for outpatient therapy. It covers gonorrhea, urinary infections, and some respiratory infections, with limited anaerobic activity, and requires renal dose adjustment.",
+      "patient_summary": "Cefixime is a powerful antibiotic in tablet form that kills bacteria by damaging their cell walls. Used for urinary tract infections, throat infections, and some respiratory infections. Taken once or twice daily. Complete the full course even if symptoms improve. If you are allergic to penicillin, inform your doctor as there may be cross-reactivity."
+    },
+    {
+      "id": "ceftriaxone",
+      "generic_name": "Ceftriaxone",
+      "category": "Antibiotics",
+      "mechanism": "Ceftriaxone is a third-generation cephalosporin with dual PBP2/PBP3 binding, conferring broad-spectrum activity against many Gram-negative and Gram-positive organisms. High PBP affinity ensures bactericidal cell wall inhibition. Exceptional CSF penetration (15–25% of serum levels) supports meningitis treatment. A long 6–9 hour half-life allows once-daily dosing in many indications. Biliary elimination provides partial hepatic clearance. Time-dependent killing is optimized by extended or continuous infusions. It is stable against many β-lactamases, though ESBL-mediated resistance is emerging. It covers meningitis, gonorrhea, and intra-abdominal infections. Displacement of bilirubin from albumin in neonates requires caution.",
+      "patient_summary": "Ceftriaxone is a strong injectable antibiotic given once a day, usually in hospitals or clinics. It works against a wide range of bacteria. Used for serious infections like pneumonia, meningitis, and abdominal infections. Given as an injection into a muscle or vein. Your doctor will decide the number of days based on the type of infection."
+    },
+    {
+      "id": "cefuroxime",
+      "generic_name": "Cefuroxime",
+      "category": "Antibiotics",
+      "mechanism": "Cefuroxime is a second-generation cephalosporin with balanced Gram-positive and Gram-negative coverage via PBP1/3 affinity. Improved β-lactamase stability versus first-generation agents enhances activity against H. influenzae and Moraxella. It inhibits cell wall synthesis in a time-dependent manner. The oral axetil prodrug achieves ~40% bioavailability. It penetrates sinus and middle-ear tissues well, making it useful in sinusitis and otitis media. It covers community respiratory pathogens and some UTIs, but is less potent against Enterobacteriaceae than third-generation cephalosporins. Anaerobic activity is limited. It is renally excreted and requires dose adjustment in renal impairment.",
+      "patient_summary": "Cefuroxime is an antibiotic available as tablets or injections. Works well for sinus infections, ear infections, throat infections, and urinary infections. Take the tablets with food for better absorption. Complete the full course as prescribed. If you have kidney problems, your doctor may adjust the dose."
+    },
+    {
+      "id": "metronidazole",
+      "generic_name": "Metronidazole",
+      "category": "Antibiotics",
+      "mechanism": "Metronidazole is reduced by nitroimidazole reductase in anaerobic bacteria and protozoa, converting its 5-nitro group to cytotoxic intermediates that damage DNA, proteins, and membranes. Selective anaerobic toxicity spares aerobes lacking these reductases. It is bactericidal against Bacteroides, Clostridia, and protozoa such as Giardia, Trichomonas, and Entamoeba. It penetrates abscesses and CSF well. A disulfiram-like reaction occurs with alcohol. Neurotoxicity risk increases with prolonged high doses. It is hepatically metabolized with renal excretion of metabolites. It covers intra-abdominal infections, C. difficile, trichomoniasis, and bacterial vaginosis, and is generally considered safe in pregnancy (category B).",
+      "patient_summary": "Metronidazole kills certain bacteria and parasites that live without oxygen. Used for stomach infections, dental infections, diarrhea caused by certain bacteria, and some vaginal infections. IMPORTANT: Do NOT drink alcohol while taking this medicine and for 48 hours after — it can cause severe nausea and vomiting. Take with food to reduce stomach upset."
+    },
+    {
+      "id": "doxycycline",
+      "generic_name": "Doxycycline",
+      "category": "Antibiotics",
+      "mechanism": "Doxycycline, a second-generation tetracycline, binds the 30S ribosomal subunit at the A-site, preventing aminoacyl-tRNA binding and protein synthesis. It has broad-spectrum bacteriostatic activity, including atypicals such as Rickettsia and Chlamydia. Tissue penetration is excellent (prostate, lung, skin). A long 16–22 hour half-life enables once- or twice-daily dosing. Adverse effects include photosensitivity, GI intolerance, and risk of esophageal ulceration if taken without water or before lying down. Chelation with divalent cations necessitates separation from antacids and dairy. It covers acne, malaria prophylaxis, Lyme disease, and respiratory infections. Avoid in children <8 years due to tooth staining.",
+      "patient_summary": "Doxycycline is a versatile antibiotic used for acne, respiratory infections, urinary infections, and malaria prevention. Take it with a full glass of water and stay upright for 30 minutes after — it can hurt your food pipe otherwise. Avoid direct sunlight as it increases sun sensitivity. Do not take with milk, antacids, or iron supplements. Not suitable for children under 8."
+    },
+    {
+      "id": "levofloxacin",
+      "generic_name": "Levofloxacin",
+      "category": "Antibiotics",
+      "mechanism": "Levofloxacin, a fluoroquinolone, inhibits bacterial DNA gyrase and topoisomerase IV, preventing DNA supercoiling necessary for replication and transcription. It exhibits concentration-dependent bactericidal activity; efficacy correlates with AUC:MIC >30–40. It has broad-spectrum Gram-positive, Gram-negative, and atypical coverage, with some Pseudomonas activity. Tissue and biofilm penetration are excellent. It is minimally metabolized by CYP enzymes and primarily renally excreted. Risks include QT prolongation, tendonitis and tendon rupture, dysglycemia, and C. difficile infection. Magnesium and other cations reduce absorption. It covers community-acquired pneumonia, complicated UTI/pyelonephritis, and chronic bacterial prostatitis, with renal dose adjustment needed.",
+      "patient_summary": "Levofloxacin is a strong antibiotic used for serious infections of the lungs, urinary tract, and sinuses. Take it with plenty of water. Avoid antacids and supplements containing iron, calcium, or magnesium near the dose. Report any tendon pain immediately — rarely, it can cause tendon damage. Avoid excessive sun exposure. Not usually a first-choice antibiotic due to side effects."
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic_name": "Ciprofloxacin",
+      "category": "Antibiotics",
+      "mechanism": "Ciprofloxacin, an early fluoroquinolone, inhibits DNA gyrase in Gram-negatives and topoisomerase IV in Gram-positives, causing double-strand DNA breaks and bactericidal effects. It shows concentration-dependent killing with AUC:MIC-driven efficacy. It has enhanced Gram-negative and Pseudomonas activity compared with some newer agents but relatively poor S. pneumoniae coverage. It penetrates urinary tract and prostate tissues well, making it useful in complicated UTI, acute pyelonephritis, and chronic bacterial prostatitis. It is largely CYP-independent but shares class risks: QT prolongation, tendon rupture, CNS effects, and C. difficile infection. Chelation with cations reduces absorption; renal adjustment is required.",
+      "patient_summary": "Ciprofloxacin is a strong antibiotic mainly used for urinary tract infections and some gut infections. Take it with plenty of water, and avoid milk, antacids, and mineral supplements near the dose. Report any tendon pain, muscle weakness, or tingling immediately. Not usually a first-choice antibiotic — reserved for infections resistant to safer options. Avoid excessive sun exposure."
+    },
+    {
+      "id": "metformin",
+      "generic_name": "Metformin",
+      "category": "Diabetes",
+      "mechanism": "Metformin, a biguanide, activates AMP-activated protein kinase (AMPK), inhibiting hepatic gluconeogenesis (via PEPCK and G6Pase suppression), increasing peripheral insulin sensitivity through GLUT4 translocation, and decreasing intestinal glucose absorption. It is weight-neutral and does not cause hypoglycemia when used alone. Lactic acidosis is rare (around 0.03 cases per 1000 patient-years) but risk increases with significant renal impairment. GI intolerance limits adherence in some patients; extended-release formulations improve tolerability. It is first-line T2DM monotherapy in major guidelines and has shown cardiovascular mortality reduction in UKPDS 34. It is renally excreted and contraindicated when eGFR <30 ml/min.",
+      "patient_summary": "Metformin is the most commonly prescribed diabetes medicine. It lowers blood sugar by reducing sugar production in the liver and helping your body use insulin better. It does NOT cause low sugar when taken alone. Some people get stomach upset initially — take with food, and your doctor may start with a low dose. Extended-release tablets cause less stomach trouble. Stay hydrated and inform your doctor about kidney problems."
+    },
+    {
+      "id": "glimepiride",
+      "generic_name": "Glimepiride",
+      "category": "Diabetes",
+      "mechanism": "Glimepiride, a second-generation sulfonylurea, binds the SUR1 subunit of pancreatic β-cell KATP channels, closing the channels, depolarizing the membrane, opening voltage-gated Ca2+ channels, and triggering insulin exocytosis. It lowers both fasting and postprandial glucose. Hypoglycemia risk is significant, especially in the elderly and those with renal impairment. Weight gain of 1–3 kg is common. It is hepatically metabolized via CYP2C9, leading to interactions with inhibitors or inducers. A 5–9 hour terminal half-life supports once-daily dosing. It has been associated with microvascular complication benefit in older trials but lacks the CV outcome benefits seen with newer classes.",
+      "patient_summary": "Glimepiride helps lower blood sugar by stimulating your pancreas to release more insulin. Taken once daily before breakfast. IMPORTANT: It can cause low blood sugar (hypoglycemia) — always carry sugar or glucose tablets with you. Symptoms of low sugar: sweating, shaking, dizziness, confusion. Do not skip meals while on this medicine. May cause slight weight gain."
+    },
+    {
+      "id": "insulin_human",
+      "generic_name": "Human Insulin",
+      "category": "Diabetes",
+      "mechanism": "Human insulin binds the insulin receptor tyrosine kinase, activating the PI3K/Akt pathway and promoting GLUT4 translocation, increasing glucose uptake into muscle and adipose tissue while enhancing glycogen, fat, and protein synthesis. It suppresses lipolysis, proteolysis, and hepatic glucose output. Different formulations—rapid-acting (lispro/aspart/glulisine), short-acting (regular), intermediate (NPH), and long-acting (glargine/detemir/degludec)—optimize basal–bolus coverage. Hypoglycemia is the main risk, requiring regular glucose monitoring and dose individualization. Weight gain is expected with improved glycemic control. Antibody formation is rare with modern human and analog preparations.",
+      "patient_summary": "Insulin is a hormone your body naturally makes to control blood sugar. When your body can't make enough, you take insulin injections. Different types work at different speeds — your doctor picks the right one for you. Always store insulin in a fridge (not freezer). Monitor your blood sugar regularly. Learn to recognize low sugar symptoms: sweating, shaking, confusion. Always carry glucose with you."
+    },
+    {
+      "id": "amlodipine",
+      "generic_name": "Amlodipine",
+      "category": "Cardiovascular",
+      "mechanism": "Amlodipine, a dihydropyridine calcium channel blocker, selectively inhibits L-type voltage-gated Ca2+ channels in vascular smooth muscle, preventing calcium entry, inducing arteriolar vasodilation, and reducing peripheral resistance. At therapeutic doses it has minimal effect on cardiac conduction and contractility. A long 30–50 hour half-life allows once-daily dosing with smooth blood pressure control. It is metabolized by CYP3A4. It is effective for hypertension and stable angina through coronary and peripheral vasodilation. Ankle edema is a dose-related common adverse effect. It is preferred in isolated systolic hypertension, especially in older patients.",
+      "patient_summary": "Amlodipine is a blood pressure medicine that relaxes blood vessels, making it easier for blood to flow. Taken once daily at any time. It works slowly and smoothly over 24 hours. Common side effect: ankle swelling — this is not dangerous but tell your doctor if bothersome. Do not stop suddenly. Works well for older patients and those with angina (chest pain from heart)."
+    },
+    {
+      "id": "losartan",
+      "generic_name": "Losartan",
+      "category": "Cardiovascular",
+      "mechanism": "Losartan, the first angiotensin receptor blocker (ARB), selectively blocks AT1 receptors, inhibiting angiotensin II–mediated vasoconstriction, aldosterone secretion, and sympathetic activation, while allowing AT2 receptor–mediated vasodilatory effects. It also has a modest uric acid–lowering effect compared with ACE inhibitors. It is hepatically metabolized via CYP2C9/3A4 to an active metabolite (E-3174) that is ~6 times more potent and has a longer half-life. It is indicated for hypertension, diabetic nephropathy, and heart failure. Risks include hyperkalemia and acute kidney injury, especially in bilateral renal artery stenosis or severe volume depletion. It is contraindicated in pregnancy.",
+      "patient_summary": "Losartan lowers blood pressure by relaxing blood vessels. It also protects the kidneys, especially in diabetic patients. Taken once or twice daily. Do NOT take during pregnancy. Get regular blood tests to check kidney function and potassium levels. Avoid potassium supplements or salt substitutes unless your doctor approves. May cause dizziness when starting — stand up slowly."
+    },
+    {
+      "id": "telmisartan",
+      "generic_name": "Telmisartan",
+      "category": "Cardiovascular",
+      "mechanism": "Telmisartan is an ARB with very high AT1 receptor affinity and partial PPAR-γ agonist activity, which may confer favorable metabolic effects. It has the longest half-life among ARBs (~24 hours), enabling true 24-hour blood pressure control with once-daily dosing. It undergoes minimal CYP metabolism and is mainly excreted via the biliary route, reducing drug–drug interaction potential. Its hydrophobic structure enhances tissue penetration. It is indicated for hypertension and reduction of cardiovascular risk in high-risk patients. It shares ARB class risks (hyperkalemia, AKI, pregnancy contraindication) and may offer more sustained BP lowering versus losartan.",
+      "patient_summary": "Telmisartan is a long-acting blood pressure medicine — one tablet covers a full 24 hours. It may also have benefits for blood sugar and metabolism. Fewer drug interactions than many other medicines. Do NOT take during pregnancy. Get regular blood tests for kidney function and potassium. Like losartan, may cause dizziness at start — stand up slowly from sitting."
+    },
+    {
+      "id": "atorvastatin",
+      "generic_name": "Atorvastatin",
+      "category": "Cardiovascular",
+      "mechanism": "Atorvastatin, a synthetic statin, competitively inhibits HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating LDL receptors, thereby increasing LDL clearance. It has pleiotropic effects including plaque stabilization, anti-inflammatory actions, and improved endothelial function. It is extensively metabolized by CYP3A4 to active metabolites. At commonly used doses it achieves ~40–60% LDL reduction. Trials such as CARDS have shown primary prevention benefit in high-risk patients. Myopathy and rhabdomyolysis are rare but increased with fibrates or strong CYP3A4 inhibitors. Liver enzyme monitoring is advised, particularly at higher doses.",
+      "patient_summary": "Atorvastatin lowers 'bad' cholesterol (LDL) in your blood, reducing the risk of heart attacks and strokes. Taken once daily, usually at night. Avoid grapefruit juice in large quantities. Report any unexplained muscle pain, weakness, or dark-colored urine to your doctor immediately. Regular blood tests are needed to check liver function. It works best along with a healthy diet and exercise."
+    },
+    {
+      "id": "rosuvastatin",
+      "generic_name": "Rosuvastatin",
+      "category": "Cardiovascular",
+      "mechanism": "Rosuvastatin is a hepatoselective statin with minimal extrahepatic uptake, resulting in potent LDL cholesterol reduction—up to ~60% at higher doses. It undergoes limited CYP2C9-mediated metabolism, with reno-biliary excretion. Exposure is higher in some Asian populations, warranting lower starting doses. Trials such as JUPITER have demonstrated primary and secondary prevention benefits. It carries a small dose-related risk of new-onset diabetes and class-typical myopathy and rhabdomyolysis risks. Routine liver function monitoring is recommended at initiation and dose escalation.",
+      "patient_summary": "Rosuvastatin is one of the most powerful cholesterol-lowering medicines. It reduces 'bad' cholesterol (LDL) very effectively. Can be taken at any time of day. Asian patients may need lower starting doses. Report unexplained muscle pain or weakness to your doctor. Regular blood tests for liver function are needed. Combined with diet and exercise for best results."
+    },
+    {
+      "id": "clopidogrel",
+      "generic_name": "Clopidogrel",
+      "category": "Cardiovascular",
+      "mechanism": "Clopidogrel is a prodrug metabolized by CYP2C19 (and other CYPs) to an active thiol metabolite that irreversibly binds the platelet P2Y12 ADP receptor, preventing GPIIb/IIIa activation, fibrinogen binding, and aggregation. It achieves ~20–30% inhibition of ADP-induced platelet aggregation. CYP2C19 poor metabolizers exhibit reduced antiplatelet response, though routine genetic testing remains controversial. Typical regimens use a 300–600 mg loading dose followed by 75 mg daily. It is indicated for secondary prevention after MI, stroke, and in peripheral arterial disease, and in dual antiplatelet therapy after PCI. Bleeding is the main adverse event.",
+      "patient_summary": "Clopidogrel is a blood thinner that prevents blood clots by stopping platelets from clumping together. Prescribed after heart attacks, strokes, or heart stent procedures. Usually taken once daily (75 mg). Do NOT stop without consulting your doctor — stopping suddenly after a stent can cause a dangerous clot. Tell your doctor/dentist about this medicine before any surgery. Bleeding and bruising are expected side effects."
+    },
+    {
+      "id": "pantoprazole",
+      "generic_name": "Pantoprazole",
+      "category": "Gastric",
+      "mechanism": "Pantoprazole is a proton pump inhibitor (PPI) that irreversibly binds cysteine residues on the gastric H+/K+ ATPase in parietal cells, blocking the final step of acid secretion and achieving 80–95% acid suppression with repeated dosing. It has relatively low dependence on CYP2C19 compared with omeprazole, reducing some drug–drug interaction risk. IV and oral formulations allow flexible inpatient and outpatient use. It is indicated for erosive esophagitis, GERD, Zollinger–Ellison syndrome, and as part of H. pylori eradication regimens. Long-term use is associated with risks such as osteoporosis-related fractures and C. difficile infection.",
+      "patient_summary": "Pantoprazole reduces stomach acid very effectively. Used for acidity, heartburn (GERD), and stomach ulcers. Take it 30–60 minutes before breakfast on an empty stomach for best effect. Not meant for long-term use without a doctor's advice — prolonged use may affect calcium absorption and bone health. Fewer drug interactions compared to omeprazole, making it a common choice."
+    },
+    {
+      "id": "omeprazole",
+      "generic_name": "Omeprazole",
+      "category": "Gastric",
+      "mechanism": "Omeprazole, the first PPI, irreversibly inhibits the gastric H+/K+ ATPase proton pump after conversion to an active sulfenamide intermediate in the acidic canaliculi. It is extensively metabolized by CYP2C19 and CYP3A4, resulting in significant interindividual variation and drug interaction potential. Indications include GERD, peptic ulcer disease, and H. pylori eradication regimens. Prolonged acid suppression can cause hypomagnesemia, B12 malabsorption, and increased risk of enteric infections. Inhibitory effects on CYP2C19 can reduce activation of clopidogrel, warranting caution or use of alternative PPIs in cardiac patients on dual antiplatelet therapy.",
+      "patient_summary": "Omeprazole reduces stomach acid and is used for acidity, heartburn, and ulcers. Take 30 minutes before food. IMPORTANT: If you are taking clopidogrel (a blood thinner after heart stent), inform your doctor — omeprazole can reduce clopidogrel's effectiveness. Your doctor may switch you to pantoprazole or rabeprazole instead. Not for long-term use without a doctor's supervision."
+    },
+    {
+      "id": "rabeprazole",
+      "generic_name": "Rabeprazole",
+      "category": "Gastric",
+      "mechanism": "Rabeprazole is a PPI that both covalently binds the H+/K+ ATPase proton pump and undergoes a non-enzymatic sulfenamide pathway, leading to rapid and potent acid suppression. It has the least dependence on CYP2C19 among PPIs, resulting in more consistent exposure across genotypes and fewer interactions with CYP2C19 substrates. It is indicated for healing and maintenance of erosive esophagitis, GERD, and as part of H. pylori eradication regimens. Onset is relatively rapid compared with omeprazole. Long-term risks overlap with the PPI class, including fractures and enteric infection risk.",
+      "patient_summary": "Rabeprazole reduces stomach acid quickly and consistently. It has the fewest drug interactions among acid-reducing medicines, making it a good choice if you take multiple medicines. Used for acidity, heartburn, ulcers, and H. pylori treatment. Take 30 minutes before food. Like all acid reducers, not meant for long-term use without a doctor's guidance."
+    },
+    {
+      "id": "ondansetron",
+      "generic_name": "Ondansetron",
+      "category": "Gastric",
+      "mechanism": "Ondansetron is a selective 5-HT3 receptor antagonist that blocks serotonin-mediated activation of vagal afferent nerves in the gut and chemoreceptor trigger zone in the area postrema, reducing nausea and vomiting from chemotherapy, radiotherapy, and surgery. It is metabolized mainly by CYP3A4 and CYP2D6. It is available in oral, IV, and orally disintegrating tablet (ODT) formulations. A key safety concern is QT interval prolongation and risk of arrhythmias, especially at higher IV doses or in patients with underlying cardiac disease or electrolyte disturbances. It is generally well tolerated; common side effects include headache and constipation.",
+      "patient_summary": "Ondansetron is an anti-nausea medicine that blocks the vomiting reflex. Used before chemotherapy, after surgery, or for severe nausea and vomiting. Available as tablets that dissolve on the tongue — convenient when you're already feeling sick. Common side effects: headache and constipation. Tell your doctor if you have heart rhythm problems, as it may affect heart rhythm at higher doses."
+    },
+    {
+      "id": "salbutamol",
+      "generic_name": "Salbutamol",
+      "category": "Respiratory",
+      "mechanism": "Salbutamol is a short-acting β2-selective adrenergic agonist that binds β2 receptors in bronchial smooth muscle, activating adenylate cyclase, increasing cAMP, and phosphorylating myosin light chain kinase (MLCK), resulting in bronchodilation. It has rapid onset (within ~5 minutes) and 4–6 hour duration. It is used for acute relief of asthma and COPD exacerbations, and prevention of exercise-induced bronchospasm. Regular overuse can lead to tachyphylaxis and indicates poor underlying control. Common side effects include tremor, tachycardia, palpitations, and hypokalemia at high doses.",
+      "patient_summary": "Salbutamol is a 'rescue inhaler' — it opens up your airways quickly when you feel breathless, wheezy, or have an asthma attack. Works within 5 minutes. Shake the inhaler before use and breathe in slowly. If you're using it more than 2–3 times per week, your asthma may not be well controlled — talk to your doctor. May cause mild hand trembling or fast heartbeat."
+    },
+    {
+      "id": "montelukast_levocetirizine",
+      "generic_name": "Montelukast + Levocetirizine",
+      "category": "Respiratory",
+      "mechanism": "This fixed-dose combination pairs montelukast, a selective cysteinyl leukotriene receptor 1 (CysLT1) antagonist, with levocetirizine, a non-sedating H1 antihistamine. Montelukast blocks LTD4-mediated bronchoconstriction, mucus secretion, edema, and eosinophil recruitment, providing anti-inflammatory control in asthma and allergic rhinitis. Levocetirizine, the R-enantiomer of cetirizine, acts as an H1 inverse agonist with minimal blood–brain barrier penetration, reducing sneezing, itching, and rhinorrhea with limited sedation. Once-daily oral dosing improves adherence for patients with coexisting asthma and allergic rhinitis. Montelukast carries neuropsychiatric warnings (mood changes, suicidality), while levocetirizine is primarily renally excreted and usually well tolerated.",
+      "patient_summary": "This combination tablet treats both allergy symptoms (sneezing, runny nose, itchy eyes) and helps control asthma. Montelukast reduces airway inflammation; levocetirizine blocks allergic reactions. Taken once daily, usually in the evening. May cause mild drowsiness in some people. Important: If you or your child notices unusual mood changes, depression, or behavioral changes, inform your doctor immediately."
+    },
+    {
+      "id": "budesonide",
+      "generic_name": "Budesonide",
+      "category": "Respiratory",
+      "mechanism": "Budesonide is an inhaled glucocorticoid that binds cytoplasmic glucocorticoid receptors, translocating to the nucleus to inhibit transcription factors such as NF-κB and AP-1, thereby suppressing proinflammatory cytokines, chemokines, and adhesion molecules. It reduces airway eosinophilia, decreases hyperresponsiveness, and improves lung function. Inhaled delivery maximizes local effect while minimizing systemic exposure. It is used for asthma maintenance and to reduce COPD exacerbations in selected patients. Rinsing the mouth and using a spacer help prevent oral candidiasis and dysphonia. High doses or prolonged use can still contribute to systemic steroid effects.",
+      "patient_summary": "Budesonide is a preventive inhaler — it reduces airway inflammation to prevent asthma attacks over time. It does NOT provide instant relief during an attack (use salbutamol for that). Use it daily as prescribed, even when you feel fine. ALWAYS rinse your mouth with water after use to prevent mouth infections. Use a spacer device for better medicine delivery to the lungs."
+    }
+  ]
+}
