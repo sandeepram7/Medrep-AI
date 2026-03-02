@@ -55,7 +55,7 @@ def health():
     return jsonify({
         "status": "ok",
         "drugs_loaded": len(master["drugs"]),
-        "llm_configured": bool(os.getenv("OPENAI_API_KEY", "")),
+        "llm_configured": bool(os.getenv("GROQ_API_KEY", "")),
     })
 
 
@@ -183,12 +183,12 @@ def interact_endpoint():
 def transcribe():
     if "audio" not in request.files: return jsonify({"error": "No audio file"}), 400
     try:
-        from openai import OpenAI
-        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        from groq import Groq
+        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
         with tempfile.NamedTemporaryFile(delete=False, suffix=".webm") as tmp:
             request.files["audio"].save(tmp.name)
             tmp_path = tmp.name
-        with open(tmp_path, "rb") as a: res = client.audio.transcriptions.create(model="whisper-1", file=a)
+        with open(tmp_path, "rb") as a: res = client.audio.transcriptions.create(model="whisper-large-v3", file=a)
         os.unlink(tmp_path)
         return jsonify({"text": res.text})
     except Exception as e: return jsonify({"error": str(e)}), 500
@@ -202,6 +202,7 @@ if __name__ == "__main__":
     port = int(os.getenv("PORT", 5000))
     print(f"🚀 MedRep AI backend running on http://localhost:{port}\n")
     app.run(host="0.0.0.0", port=port, debug=False)
+
 
 
 

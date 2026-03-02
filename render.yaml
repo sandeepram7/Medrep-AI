@@ -7,8 +7,9 @@ services:
     buildCommand: pip install -r requirements.txt && python data_loader.py
     startCommand: gunicorn app:app --workers 1 --bind 0.0.0.0:$PORT
     envVars:
-      - key: OPENAI_API_KEY
+      - key: GROQ_API_KEY
         sync: false
-      - key: OPENAI_MODEL
-        value: gpt-4o-mini
+      - key: GROQ_MODEL
+        value: llama-3.1-8b-instant
+
 
