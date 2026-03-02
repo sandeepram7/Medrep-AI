@@ -1,3 +1,12 @@
+---
+title: Medic API
+emoji: 💊
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+app_port: 7860
+---
 # 💊 MedRep AI - Digital Medical Representative
 
 > An AI-powered chatbot delivering instant, accurate drug information to Indian healthcare professionals — with cited sources, interaction safety checks, and reimbursement guidance.
@@ -71,3 +80,4 @@ Every answer comes with a **source citation** displayed in a proof panel.
 ## 📄 License
 
 This project is licensed under the MIT License.
+
