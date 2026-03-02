@@ -18,8 +18,15 @@ from pathlib import Path
 import chromadb
 from chromadb.config import Settings
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-CHROMA_DIR = Path(__file__).resolve().parent.parent / "chroma_db"
+base_dir = Path(__file__).resolve().parent
+if (base_dir / "data").exists() or base_dir.name != "backend":
+    # Docker mode: /app/data
+    DATA_DIR = base_dir / "data"
+    CHROMA_DIR = base_dir / "chroma_db"
+else:
+    # Local mode: backend/../data
+    DATA_DIR = base_dir.parent / "data"
+    CHROMA_DIR = base_dir.parent / "chroma_db"
 
 
 def _load_json(filename):
