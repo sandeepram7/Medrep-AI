@@ -16,7 +16,7 @@ import {
   MicOff,
 } from "lucide-react";
 import ReactMarkdown from "react-markdown";
-import { sendQuery } from "../services/api";
+import { sendQuery, API_BASE } from "../services/api";
 import DrugCard from "../components/DrugCard";
 
 /* ── Typing animation ── */
@@ -330,7 +330,7 @@ export default function ChatPage() {
       const formData = new FormData();
       formData.append("audio", audioBlob, "recording.webm");
 
-      const response = await fetch("/api/transcribe", {
+      const response = await fetch(`${API_BASE}/transcribe`, {
         method: "POST",
         body: formData,
       });
@@ -435,7 +435,7 @@ export default function ChatPage() {
     } catch (err) {
       let errorMsg;
       try {
-        const res = await fetch("/api/health");
+        const res = await fetch(`${API_BASE}/health`);
         if (res.ok) {
           errorMsg =
             "The AI model is temporarily rate-limited. Please wait a few seconds and try again.";

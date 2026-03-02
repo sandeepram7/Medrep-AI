@@ -1,4 +1,4 @@
-const API_BASE = "/api";
+export const API_BASE = import.meta.env.VITE_API_URL || "https://sr124-medic-api.hf.space/api";
 
 /** POST /api/query — main RAG chat endpoint */
 export async function sendQuery(message, mode = "doctor") {
