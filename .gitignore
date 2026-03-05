@@ -1,4 +1,4 @@
-﻿node_modules/
+node_modules/
 frontend/node_modules/
 __pycache__/
 backend/__pycache__/
@@ -13,37 +13,3 @@ frontend/dist/
 chroma_db/
 backend/chroma_db/
 .vscode/
-
-# Personal / Hackathon specific prep files
-my resume.md
-my_resume_ai_ml.md
-my_resume_optimised.md
-medithon_project_interview_report.md
-PLAN.md
-PRESENTATION_SCRIPT.md
-DATA_NEEDS.md
-*.pdfnode_modules/
-frontend/node_modules/
-__pycache__/
-backend/__pycache__/
-.env
-backend/.env
-.venv
-backend/.venv
-venv
-backend/venv
-dist/
-frontend/dist/
-chroma_db/
-backend/chroma_db/
-.vscode/
-
-# Personal / Hackathon specific prep files
-my resume.md
-my_resume_ai_ml.md
-my_resume_optimised.md
-medithon_project_interview_report.md
-PLAN.md
-PRESENTATION_SCRIPT.md
-DATA_NEEDS.md
-*.pdf
