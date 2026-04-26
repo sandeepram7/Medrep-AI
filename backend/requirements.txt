@@ -2,8 +2,8 @@ flask
 flask-cors
 python-dotenv
 langchain
-langchain-groq
-groq
+langchain-openai
+openai
 langchain-community
 chromadb
 sentence-transformers

@@ -17,7 +17,7 @@ import re
 import time
 
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
 
 from data_loader import get_chroma_client, get_drugs_master, get_interactions
@@ -35,13 +35,13 @@ _llm = None
 def get_llm():
     global _llm
     if _llm is None:
-        api_key = os.getenv("GROQ_API_KEY", "")
+        api_key = os.getenv("OPENAI_API_KEY", "")
         if not api_key:
             raise RuntimeError(
-                "GROQ_API_KEY not set."
+                "OPENAI_API_KEY not set."
             )
-        model_name = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
-        _llm = ChatGroq(
+        model_name = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+        _llm = ChatOpenAI(
             model=model_name,
             api_key=api_key,
             temperature=0.3,
